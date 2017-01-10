@@ -1,0 +1,39 @@
+{
+  "name": "ct-county-list",
+  "title": "Ct County List",
+  "description": "List of Connecticut counties along with FIPS codes.",
+  "version": "1.0",
+  "license": {
+    "type": "Open Data Commons Public Domain",
+    "url": "http://opendatacommons.org/licenses/pddl/"
+  },
+  "author": {
+    "name": "Sasha Cuerda",
+    "email": "scuerda@ctdata.org",
+    "web": "http://ctdata.org"
+  },
+  "resources": [
+    {
+      "schema": {
+        "fields": [
+          {
+            "name": "County",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "FIPS",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      },
+      "name": "county_fips",
+      "title": "County Fips",
+      "path": "county_fips.csv",
+      "format": "CSV",
+      "mediatype": "text/csv"
+    }
+  ]
+}
+
